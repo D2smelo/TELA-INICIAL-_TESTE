@@ -1,9 +1,8 @@
 body {
-    background-color: #060641;
-    font-family: 'Poppins', sans-serif;
-    height: 100vh; /* Altura da tela inteira */
+    font-family: 'PopIndie Flower', sans-serif;
+    height: 100vh;/* Altura da tela inteira */
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: center;/* Centraliza horizontalmente */
     align-items: center;/* Centraliza verticalmente */
     background-size: cover;
     background-position: center;
@@ -11,83 +10,48 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;/* Remove as bolinhas padrão */
-}
-body::before{
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    backdrop-filter: blur(8px);
 }
 main {
-
     background-color: #fbf095;
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    height: 100vh; /* Define a altura do contêiner como 100% da altura da tela */
-    width: 600px;
-    padding: 2px;
-    height: 650px;
-    list-style: none;/* Remove as bolinhas padrão */
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 600px; /* Limita a largura máxima do cartão */
+    width: 100%; /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
+    box-sizing: border-box;
 }
-
-/* CARTAO 1 */
-
 .cartao-imagem img {
-    background-color: #fbf095;
     width: 100%;
-    max-height: 160px;  /* Limita a altura do logo */
+    max-height: 160px; /* Limita a altura do logo */
     object-fit: contain; /* Garante que a imagem não distorça */
     margin-bottom: 0px; /* Margem inferior para espaçamento */
-    list-style: none;
-}
-
-.cartao {
-    background-color: #36ea3f;
-    
-    margin-bottom: 5px; /* Reduz a margem inferior para caber mais texto */
-    border: 5px;
-    list-style: none;
 }
 
 .informacao {
-    background-color: #e38d0b;
+    
     border-top: 2px solid #c5cfd6;
-    padding-top: 1px;/* Ajusta o padding para caber melhor na tela */
-    margin-top: 0px;/* Ajusta a margem para caber melhor na tela */
-    margin-bottom: 5px;
-    width: 100%;
-    max-width: 600px;
-    list-style: none;
+    padding-top: 1px; /* Ajusta o padding para caber melhor na tela */
+    margin-top: 1px; /* Ajusta a margem para caber melhor na tela */
 }
-
-.cartao-visitante h3 {
+.cartao-visitante h3, h2 {
+    
     padding: 0px;
-    max-width: 400px;/* Limita a largura máxima do cartão */
-    width: 20%;/* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
+    border-radius: 0px;
+    max-width: 400px; /* Limita a largura máxima do cartão */
+    width: 30%; /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
     box-sizing: border-box;
-    list-style: none;
-
 }
-
 h3 {
-
-    font-size: 1.3em;/* Reduz o tamanho do título secundário */
-    list-style: none;
+    
+    font-size: 1.3em; /* Reduz o tamanho do título secundário */
 }
-
 h2 {
+    
     display: flex;
     justify-items: center;
     align-items: center;
-    margin: 0px 50px 20px;
+    margin: 0px 250px 20px;
     margin-bottom: -2px;
 }
-
 h3 {
     display: flex;
     justify-items: center;
@@ -95,24 +59,16 @@ h3 {
     margin: 10px 200px 20px;
     margin-bottom: 0;
 }
-
 .titulo1 {
-    font-size: 1.1em;/* Reduz o tamanho dos subtítulos */
-    color: #4d5a5b;
-    margin-top: 8px;/* Ajuste na margem superior */
+    font-size: 1.1em; /* Reduz o tamanho dos subtítulos */
+    color: #524d5b;
+    margin-top: 8px; /* Ajuste na margem superior */
     margin: 0 180px 0px;
 }
-
-h4 {
-
-    color: #4d5a5b;
-    
-}
-
 .titulo2 {
     font-size: 1.1em; /* Reduz o tamanho dos subtítulos */
     color: #4d5a5b;
-    margin-top: 8px;/* Ajuste na margem superior */
+    margin-top: 8px; /* Ajuste na margem superior */
     margin: 0 180px 0px;
 }
 
@@ -120,192 +76,12 @@ h4 {
 p {
     font-size: 0.85em; /* Reduz o tamanho da fonte dos parágrafos */
     color: #2c3e50;
-    line-height: 1.4;/* Ajusta o espaçamento entre linhas */
-    margin: 6px 0; /* Adiciona margem entre parágrafos */
-    margin-left: 10px;
-}
-
-.titulo3 {
-    margin-left: 12px;
-}
-
-h2 {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: #333;
-}
-
-/* CARTAO 2 */
-
-.cartao-cadastro {
-
-    padding: 5px;
-    max-width: 600px;/* Limita a largura máxima do cartão */
-    width: 100%;/* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
-    box-sizing: border-box;
-}
-
-.formulario {
-    background-color: #fbf095;
-    padding: 5px;
-
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    max-width: 600px;
-    border-top: 20px;
-}
-
-input[type="text"] {
-    width: 100%;
-    /* Deixa os inputs com 100% da largura do cartão */
-    padding: 5px 0;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="tel"] {
-    width: 100%;
-    /* Deixa os inputs com 100% da largura do cartão */
-    padding: 5px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="email"] {
-    width: 100%;
-    /* Deixa os inputs com 100% da largura do cartão */
-    padding: 5px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="date"] {
-    width: 60%;
-    padding: 5px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="radio"] {
-    width: 3%;
-    margin: 5px 10px;
-
-}
-
-input[type="igreja"] {
-    width: 100%;
-    /* Deixa os inputs com 100% da largura do cartão */
-    padding: 5px;
-    margin: 3px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-
-}
-
-button {
-    width: 100%;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    text-decoration-color: #333;
-}
-
-button:hover {
-    background-color: #36ea3f;
-    
-}
-
-/* CARTAO 3 */
-
-.cartao-questionario {
-    background-color: #fbf095;
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    max-width: 600px;
-    border-top: 20px;
-    list-style: none;
-}
-
-h2 {
-    text-align: center; /* Centraliza o título */
-    color: #333;
-    margin-bottom: 20px; /* Espaço abaixo do título */
-    list-style: none;
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column; /* Alinha as questões verticalmente */
-    list-style: none;
-}
-
-label {
-    margin-bottom: 15px;
-    /* Espaço entre as questões */
-    font-size: 16px;
-    /* Tamanho da fonte das questões */
-}
-
-input[type="radio"] {
-    margin-right: 10px;
-    /* Espaço entre o rádio e o texto */
-}
-
-/* BOTOES */
-.botoes{
-    max-width: 200px;
-}
-.botoes .cartao{
-    background-color: #36ea3f;
-    width: 45%;
-}
-.botoes button {
-    
-    background-color: #e4ebf3;
-    color: #585454;
-    margin: 20px;
+    line-height: 1.4; /* Ajusta o espaçamento entre linhas */
+    margin: 7px 0; /* Adiciona margem entre parágrafos */
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 12px 15px;
-    margin-bottom: 1px;
-    cursor: pointer;
-    border-radius: 8px;
-    min-height: 10px;
-    transition: 0.15 ease-in-out;
+    justify-items: center;
 }
 
-/* BOTAO 4 */
-.botao4 .botao-logo {
-    width: 290px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.botoes .botao4 {
-    width: 290px;
-    padding-bottom: 20px;
-    text-align: center;
-    margin-right: 10px;
-}
-button {
-    font-size: 15px;  /* Tamanho da fonte das questões */
-    
-}
 
-.botoes button:hover {
-    background-color: #4ea2eb;
-    transform: scale(1.15);
-}
+
