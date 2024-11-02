@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINISTÉRIO_CATIVAR 2</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+        
+</head>
+
+<body>
+    <main>
+        <div class="cartao">
+            <div class="cartao" id="cartao1">
+                <header class="cartao-imagem">
+                    <img src="./src/imagens/CATIVAR.png" alt="Logotipo do Ministério Cativar">
+                </header>
+
+                <section class="cartao-visitante">
+                    <h3>Amigo</h3>
+                    <h2>VISITANTE</h2>
+                </section>
+
+                <section class="cartao informacao">
+                    <h4 class="titulo1">Que bom que você veio!</h4>
+                    <p>Cristianismo é relacionamento e por isso queremos que nos conheça rapidamente!</p>
+
+                    <h4 class="titulo2">Um pouco de nós!</h4>
+                    <h4 class="titulo3">Vivemos para:</h4>
+                    <p>"Exaltar a Deus que é bom em todo tempo, apresentar Jesus ao coração de cada ser humano, e,
+                        através
+                        da
+                        capacitação do Espírito Santo, torná-los integrados e produtivos na obra do Senhor".</p>
+
+                    <h4 class="titulo3">Somos:</h4>
+                    <p>"Uma comunidade comprometida com Jesus e seus ensinos, que busca o crescimento espiritual do
+                        indivíduo e
+                        do todo, sendo útil a todos, através de relacionamentos de amor, serviço, comunhão, adoração e
+                        evangelismo, desenvolvidos de forma pessoal e interdependente".</p>
+
+                    <h4 class="titulo3">Nossos valores:</h4>
+                    <p>"A Bíblia, o individuo e a Familia".</p>
+
+                    <h4 class="titulo3">Nossa declaração de Fé:</h4>
+                    <p>"Cremos no relacionamento entre Jesus e o homem e entre o homem e seu próximo".</p>
+                </section>
+            </div>
+
+
+            <div class="cartao" id="cartao2">
+                <div class="cartao-cadastro">
+                    <h2>Agora um pouco de você</h2>
+
+                    <form action="/SUBMIT" method="POST"> <!-- action é onde os dados serão enviados -->
+
+                        <!-- Nome -->
+                        <div class="formulario">
+                            <label for="nome">Nome:</label>
+                            <div class="digite-seu-nome"> <input type="text" id="nome" name="nome"
+                                    placeholder="Digite seu nome" required>
+                                <br>
+
+                                <!-- Telefone -->
+                                <label for="telefone">Telefone:</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone"
+                                    required>
+                                <br>
+
+                                <!-- Email -->
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Digite seu email">
+                                <br>
+
+                                <!-- Endereço -->
+                                <label for="endereco">Endereço:</label>
+                                <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
+                                <br>
+
+                                <!-- Data de Aniversário -->
+                                <label for="data-aniversario">Data de Aniversário:</label>
+                                <input type="date" id="data-aniversario" name="data-aniversario">
+                                <br>
+
+                                <!-- Visitando (Radios) -->
+                                <label>Visitando:</label>
+                                <label><input type="radio" name="visita" value="1a vez"> 1ª vez</label>
+                                <label><input type="radio" name="visita" value="2a vez"> 2ª vez</label>
+                                <label><input type="radio" name="visita" value="3a vez"> 3ª vez</label>
+                                <br>
+
+                                <!-- Igreja que Pertence -->
+                                <label for="igreja">Igreja que pertence:</label>
+                                <input type="igreja" id="igreja" name="igreja" placeholder="Digite sua igreja">
+                                <br>
+
+                                <!-- Faixa Etária (Radios) -->
+                                <label>Faixa etária:</label>
+                                <label><input type="radio" name="faixa-etaria" value="adolescente">
+                                    Adulto</label>
+                                <label><input type="radio" name="faixa-etaria" value="jovem"> Jovem</label>
+                                <label><input type="radio" name="faixa-etaria" value="adulto">Adolescente</label>
+                                <br>
+
+                                <label for="data-aniversario">Data de hoje:</label>
+                                <input type="date" id="data-aniversario" name="data-aniversario">
+                                <br>
+
+
+                            </div>
+                            <!-- Botão de Enviar -->
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="formulario2" id="cartao3">
+                <div class="cartao-questionario">
+                    <h2>Minha decisão hoje:</h2>
+
+                    <form action="/SUBMIT" method="POST"> <!-- action é onde os dados serão enviados -->
+                        <div class="formulario">
+
+                            <label><input type="radio" nome="questionario" value="salvo_por_Jesus"> Entendi que preciso
+                                ser
+                                salvo por Jesus. </label>
+
+                            <label><input type="radio" nome="questionario" value="reconciliar_igreja"> Entendi que
+                                preciso me
+                                reconciliar com a igreja. </label>
+
+                            <label><input type="radio" nom="questionario" value="membro_igreja"> Quero saber como me
+                                tornar
+                                membro da igreja. </label>
+
+                            <label><input type="radio" nome="questionario" value="orar_vida"> Quero que orem pela minha
+                                vida.
+                            </label>
+
+                            <label><input type="radio" nome="questionario" value="visita_pastor"> Quero uma visita do
+                                paastor da
+                                igreja.</label>
+
+                            </label>
+                            <br>
+                        </div>
+                        <!-- Botão de Enviar -->
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav class="botoes">
+        <!-- Botões para alternar -->
+        <div class="botoes123">
+            <button id="mostrarCartao1">INÍCIO</button>
+            <button id="mostrarCartao2">AGORA UM POUCO DE VOCÊ</button>
+            <button id="mostrarCartao3">MINHA DECISÃO HOJE</button>
+        </div>
+        <!-- Quarto botão 4-->
+        <div class="botao4">
+            <a href="https://www.google.com/maps/search/Travessa+Bel%C3%A9m+3%2C+150%2C+Cidade+Beira+Mar+-+Rio+das+Ostras+-+RJ"
+                target="_blank">
+                <button id="abrir-mapa" class="botao-logo">
+                    <p>Domingo 9h - Escola Bíblica Dominical,<br> 19h - Grande Celebração<br> 
+                    Quarta-Feira 19h30min - Quarta Viva<br> 
+                    Travessa Belém 3, 150, Cidade Beira Mar - Rio das Ostras - RJ<br>
+
+                </button>
+            </a>
+        </div>
+
+    </nav>
+
+
+    </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
