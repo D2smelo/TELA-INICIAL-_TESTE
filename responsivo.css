@@ -3,7 +3,7 @@
 
     .cartao-imagem img {
         
-        width: 50%;
+        width: 25%;
         max-height: 160px;
         /* Limita a altura do logo */
         object-fit: contain;
