@@ -3,7 +3,7 @@
 
     .cartao-imagem img {
         
-        width: 25%;
+        width: 35%;
         max-height: 160px;
         /* Limita a altura do logo */
         object-fit: contain;
@@ -37,7 +37,7 @@
         justify-items: center;
         align-items: center;
         margin: 30px 190px 20px;
-        margin-top: -80px;
+        margin-top: -70px;
     }
     .informacao {
         
