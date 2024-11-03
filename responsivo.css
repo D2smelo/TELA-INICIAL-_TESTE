@@ -23,9 +23,9 @@
     h2 {
         
         padding: 0px;
-        max-width: 400px;
+        max-width: 200px;
         /* Limita a largura máxima do cartão */
-        width: 40%;
+        width: 20%;
         /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
         box-sizing: border-box;
     }
