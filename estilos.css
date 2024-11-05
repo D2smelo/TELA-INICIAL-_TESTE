@@ -26,11 +26,12 @@ main {
     margin-bottom: 0px; /* Margem inferior para espaçamento */
 }
 
-.informacao {
-    
-    border-top: 2px solid #c5cfd6;
-    padding-top: 1px; /* Ajusta o padding para caber melhor na tela */
-    margin-top: 1px; /* Ajusta a margem para caber melhor na tela */
+.cartao-informacao {
+
+    padding-top: 20px; /* Ajusta o padding para caber melhor na tela */
+    margin-top: 10px; /* Ajusta a margem para caber melhor na tela */
+    width: 570px;
+    margin-left: 10px;
 }
 .cartao-visitante h3, h2 {
     
