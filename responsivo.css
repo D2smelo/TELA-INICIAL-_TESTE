@@ -1,10 +1,92 @@
 @media (max-width:672px) {
+
     main {
-    
-    padding: 5px;
+        padding: 5px;
     border-radius: 10px;
     max-width: 495px; /* Limita a largura máxima do cartão */
-    width: 77%; 
+    width: 77%;
+    }
+
+
+    .cartao-imagem img {
+        
+        width: 55%;
+        max-height: 160px;
+        /* Limita a altura do logo */
+        object-fit: contain;
+        /* Garante que a imagem não distorça */
+        margin-bottom: 0px;
+        /* Margem inferior para espaçamento */
+    }
+
+    .cartao-visitante h3,
+    h2 {
+        
+        padding: 0px;
+        max-width: 100px;
+        /* Limita a largura máxima do cartão */
+        width: 10%;
+        /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
+        box-sizing: border-box;
+    }
+
+    h2 {
+
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 0px 180px 20px;
+        margin-top: -10px;
+        font-size: large;
+    }
+
+    h3 {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 30px 175px 20px;
+        margin-top: -70px;
+    }
+    .cartao-informacao {
+        background-color: aqua;
+        padding-top: 20px; /* Ajusta o padding para caber melhor na tela */
+        margin-top: 30px; /* Ajusta a margem para caber melhor na tela */
+        width: 270px;
+        margin-left: 10px;
+    }
+    .titulo1 {
+        font-size: 1em; /* Reduz o tamanho dos subtítulos */
+        color: #2c2a2d;
+        margin-top: 8px; /* Ajuste na margem superior */
+        margin: -20px 30px 0px;
+    }
+    .titulo2 {
+        font-size: 1em; /* Reduz o tamanho dos subtítulos */
+        color: #2d2c2e;
+        margin-top: 8px; /* Ajuste na margem superior */
+        margin: 15px 50px 12px;
+    }
+    /* Estilo dos parágrafos */
+p {
+    font-size: 0.85em; /* Reduz o tamanho da fonte dos parágrafos */
+    color: #403d42;
+    line-height: 1.4; /* Ajusta o espaçamento entre linhas */
+    margin: 10px 10px 12px 12px; /* Adiciona margem entre parágrafos */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+
+
+}
+@media (max-width:312px) {
+
+    main {
+        padding: 5px;
+    max-width: 200px; /* Limita a largura máxima do cartão */
+    width: 75%;
     }
 
 
@@ -22,10 +104,10 @@
     .cartao-visitante h3,
     h2 {
         
-        padding: 0px;
-        max-width: 200px;
+        padding: 2px;
+        max-width: 80px;
         /* Limita a largura máxima do cartão */
-        width: 20%;
+        width: 25%;
         /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
         box-sizing: border-box;
     }
@@ -35,45 +117,48 @@
         display: flex;
         justify-items: center;
         align-items: center;
-        margin: 0px 205px 20px;
-        margin-top: -18px;
+        margin: 0px 60px 10px;
+        margin-top: 0px;
+        font-size: 0.8em;
     }
 
     h3 {
         display: flex;
         justify-items: center;
         align-items: center;
-        margin: 30px 190px 20px;
-        margin-top: -70px;
+        margin: 0px 70px 0px;
+        margin-top: -35px;
+        font-size: 0.8em;
     }
-    .informacao {
-        
-        padding-top: 30px; /* Ajusta o padding para caber melhor na tela */
-        margin-top: 30px; /* Ajusta a margem para caber melhor na tela */
-        width: 290px;
-        margin-left: 32px;
+    .cartao-informacao {
+    
+        padding-top: 20px; /* Ajusta o padding para caber melhor na tela */
+        margin-top: -8px; /* Ajusta a margem para caber melhor na tela */
+        width: 152px;
+        margin-left: 1px;
     }
     .titulo1 {
-        font-size: 1em; /* Reduz o tamanho dos subtítulos */
+        font-size: 0.8em; /* Reduz o tamanho dos subtítulos */
         color: #2c2a2d;
         margin-top: 8px; /* Ajuste na margem superior */
-        margin: -20px 50px 0px;
+        margin: -18px 1px 5px 0px;
     }
     .titulo2 {
-        font-size: 1em; /* Reduz o tamanho dos subtítulos */
+        font-size: 0.8em; /* Reduz o tamanho dos subtítulos */
         color: #2d2c2e;
         margin-top: 8px; /* Ajuste na margem superior */
-        margin: 10px 50px 0px;
+        margin: -1px 1px 10px;
     }
     /* Estilo dos parágrafos */
 p {
-    font-size: 0.85em; /* Reduz o tamanho da fonte dos parágrafos */
+    font-size: 0.8em; /* Reduz o tamanho da fonte dos parágrafos */
     color: #403d42;
-    line-height: 1.4; /* Ajusta o espaçamento entre linhas */
-    margin: 10px 0; /* Adiciona margem entre parágrafos */
+    line-height: 1; /* Ajusta o espaçamento entre linhas */
+    margin: 10px 10px 12px 12px; /* Adiciona margem entre parágrafos */
     display: flex;
     align-items: center;
     justify-items: center;
+    box-sizing: border-box;
 }
 
 
