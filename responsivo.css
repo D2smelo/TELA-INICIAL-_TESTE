@@ -2,9 +2,10 @@
 
     main {
         padding: 5px;
-    
-    max-width: 495px; /* Limita a largura máxima do cartão */
-    width: 77%;
+        max-width: 495px; /* Limita a largura máxima do cartão */
+        width: 77%;
+        height: 100vh;
+        margin-top: 50px
     }
 
 
