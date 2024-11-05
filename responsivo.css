@@ -47,8 +47,9 @@
         margin: 30px 175px 20px;
         margin-top: -70px;
     }
-    .cartao-informacao {
     
+    .cartao-informacao {
+
         padding-top: 20px; /* Ajusta o padding para caber melhor na tela */
         margin-top: 30px; /* Ajusta a margem para caber melhor na tela */
         width: 270px;
