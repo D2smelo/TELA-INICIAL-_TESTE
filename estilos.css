@@ -14,7 +14,7 @@ body {
 main {
     background-color: #fbf095;
     padding: 5px;
-    border-radius: 10px;
+    
     max-width: 600px; /* Limita a largura máxima do cartão */
     width: 100%; /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
     box-sizing: border-box;
@@ -36,7 +36,7 @@ main {
 .cartao-visitante h3, h2 {
     
     padding: 0px;
-    border-radius: 0px;
+    
     max-width: 400px; /* Limita a largura máxima do cartão */
     width: 30%; /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
     box-sizing: border-box;
