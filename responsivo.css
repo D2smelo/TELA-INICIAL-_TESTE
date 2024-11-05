@@ -1,7 +1,7 @@
 @media (max-width:672px) {
 
     main {
-        padding: 5px;
+        padding: 50px;
         max-width: 495px; /* Limita a largura máxima do cartão */
         width: 77%;
         height: 100vh;
