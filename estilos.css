@@ -13,14 +13,15 @@ body {
 }
 main {
     background-color: #fbf095;
+    margin-top: 247px;
     padding: 5px;
-    
-    max-width: 600px; /* Limita a largura máxima do cartão */
+    height: 100vh;
+    max-width: 527px; /* Limita a largura máxima do cartão */
     width: 100%; /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
     box-sizing: border-box;
 }
 .cartao-imagem img {
-    width: 100%;
+    width: 45%;
     max-height: 160px; /* Limita a altura do logo */
     object-fit: contain; /* Garante que a imagem não distorça */
     margin-bottom: 0px; /* Margem inferior para espaçamento */
