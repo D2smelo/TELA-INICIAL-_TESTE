@@ -4,8 +4,8 @@
         padding: 5px;
         max-width: 495px; /* Limita a largura máxima do cartão */
         width: 77%;
-        height: 100vh;
-        margin-top: 50px
+        height: 204vh;
+        margin-top: 1150px
     }
 
 
@@ -36,7 +36,7 @@
         display: flex;
         justify-items: center;
         align-items: center;
-        margin: 0px 180px 20px;
+        margin: 0px 170px 20px;
         margin-top: -10px;
         font-size: large;
     }
@@ -45,7 +45,7 @@
         display: flex;
         justify-items: center;
         align-items: center;
-        margin: 30px 175px 20px;
+        margin: 30px 165px 20px;
         margin-top: -70px;
     }
     
@@ -79,11 +79,158 @@ p {
     justify-items: center;
     box-sizing: border-box;
 }
+/* CARTÃO 2 */
 
+.titulo-cartao2 {
+    margin: 14px 18px 10px;
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 250px;
+}
+.formulario {
+    margin-left: 10px;
+    max-width: 500px;
+}
+input[type="text"] {
+    width: 100%;
+    /* Deixa os inputs com 100% da largura do cartão */
+    padding: 8px 10px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+input[type="tel"] {
+    width: 50%;
+    /* Deixa os inputs com 100% da largura do cartão */
+    padding: 8px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+input[type="email"] {
+    width: 80%;
+    /* Deixa os inputs com 100% da largura do cartão */
+    padding: 8px;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+input[type="date"] {
+    width: 60%;
+    padding: 8px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+input[type="radio"] {
+    width: 5%;
+    margin: 2px 0px;
+    margin-left: 0px;
+    font-size: 1px;
+
+}
+
+input[type="igreja"] {
+    width: 80%;
+    /* Deixa os inputs com 100% da largura do cartão */
+    padding: 8px;
+    margin: -40px 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+.igreja {
+    line-height: 50px;
+}
+
+/*CARTÃO 3 */
+
+.formulario3 {
+    margin: -10px 0px 0px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: -50px;
+    
+}
+.titulo3 {
+    
+    margin: 50px 60px 10px;
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 270px;
+    margin-top: 15px;
+}
+.pergunta1 {
+    margin-bottom: 14px;
+    /* Espaço entre as questões */
+    margin-left: 12px;
+    font-size: 16px;
+    /* Tamanho da fonte das questões */
+}
+.pergunta2 {
+    margin-bottom: 14px;
+    /* Espaço entre as questões */
+    margin-left: 12px;
+    font-size: 16px;
+    /* Tamanho da fonte das questões */
+}
+.pergunta3 {
+    margin-bottom: 14px;
+    /* Espaço entre as questões */
+    margin-left: 12px;
+    font-size: 16px;
+    /* Tamanho da fonte das questões */
+}
+.pergunta4 {
+    margin-bottom: 14px;
+    /* Espaço entre as questões */
+    margin-left: 12px;
+    font-size: 16px;
+    /* Tamanho da fonte das questões */
+}
+.pergunta5 {
+    margin-bottom: 14px;
+    /* Espaço entre as questões */
+    margin-left: 12px;
+    font-size: 16px;
+    /* Tamanho da fonte das questões */
+}
+
+input[type="radio"] {
+    margin-right: 0px;
+    /* Espaço entre o rádio e o texto */
+}
+button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    text-decoration-color: #333;
+    margin-bottom: 60px;
+    margin-left: 70px;
+}
+
+button:hover {
+    background-color: #36ea3f;
+
+}
 
 
 }
-@media (max-width:312px) {
+@media (max-width:372px) {
 
     main {
         padding: 5px;
@@ -119,7 +266,7 @@ p {
         display: flex;
         justify-items: center;
         align-items: center;
-        margin: 0px 60px 10px;
+        margin: 0px 85px 10px;
         margin-top: 0px;
         font-size: 0.8em;
     }
@@ -128,7 +275,7 @@ p {
         display: flex;
         justify-items: center;
         align-items: center;
-        margin: 0px 70px 0px;
+        margin: 0px 80px 0px;
         margin-top: -35px;
         font-size: 0.8em;
     }
@@ -162,6 +309,14 @@ p {
     justify-items: center;
     box-sizing: border-box;
 }
+.titulo-cartao2 {
+    margin: 10px 10px 10px;
+    font-size: 1em;
+    width: 95%;
+    max-width: 220px;
+}
+
+
 
 
 
