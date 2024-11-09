@@ -21,6 +21,7 @@ body::before {
     height: 300vh;
     z-index: -1;
     backdrop-filter: blur(0px);
+    background-attachment: fixed;
 }
 main {
     background-color: #fbf095;
