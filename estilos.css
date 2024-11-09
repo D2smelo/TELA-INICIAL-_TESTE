@@ -1,6 +1,6 @@
 body {
     font-family: 'PopIndie Flower', sans-serif;
-    background-image: url(../imagem/background.jpg);
+    background-image: url(imagem/background.jpg);
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;/* Centraliza verticalmente */
