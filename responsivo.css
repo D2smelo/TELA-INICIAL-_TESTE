@@ -1,4 +1,4 @@
-@media (max-width:672px) {
+@media screen and (max-width: 768px) {
 
     .cartao-imagem img {
         
@@ -215,7 +215,7 @@ button:hover {
 
 
 }
-@media (max-width:389px) {
+@media screen and (max-width: 389px) {
 
     main {
         padding: 10px;
