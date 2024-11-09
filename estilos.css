@@ -29,7 +29,7 @@ main {
     height: 228vh;
     max-width: 527px; /* Limita a largura máxima do cartão */
     width: 100%; /* Faz com que o cartão se ajuste ao tamanho da tela, mas não ultrapasse a largura máxima */
-    
+    margin-left: 500px;
     
 }
 .cartao-imagem img {
