@@ -27,8 +27,8 @@
   .cartao-informacao {
     padding-top: 40px; /* Ajusta o padding para caber melhor na tela */
     margin-top: 8px; /* Ajusta a margem para caber melhor na tela */
-    width: 495px;
-    margin-left: 1px;
+    width: 400px;
+    margin-left: 10px;
   }
   .titulo1 {
     font-size: 1.2em; /* Reduz o tamanho dos subtítulos */
