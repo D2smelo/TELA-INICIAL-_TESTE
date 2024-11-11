@@ -28,7 +28,10 @@ body {
   h2, h3 {
       margin: 0;
       text-align: center;
-      font-size: 1.2em; /* Ajuste o tamanho do texto */
+      font-size: 1.5em; /* Ajuste o tamanho do texto */
+    margin-top: 50px;
+    line-height: 0px;
+    
   }
 
   .titulo1, .titulo2, .titulo3 {
