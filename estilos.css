@@ -26,9 +26,10 @@ main {
     min-height: 100vh;
     
 }
-img.imagem{
-    width: 50%;
-    margin-top: 5px;
+.cartao-informacao .imagem{
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .cartao-informacao {
@@ -36,57 +37,68 @@ img.imagem{
     display: flex;
     flex-direction: column;
     width: 510px;
-    margin-top: 50px;
+    margin-top: 80px;
+    
     
 }
-
-   
-
-h3 {
+.amigo {
 
     font-size: 1.3em; /* Reduz o tamanho do título secundário */
 }
-h2 {
-    margin: 0px 290px 0px;
-    margin-top: -10px;
-}
-h3 {
-    margin: 0px 270px 0px;
-    margin-top: -100px;
-    margin-bottom: 10px;
-}
-.titulo1 {
-    font-size: 1.1em; /* Reduz o tamanho dos subtítulos */
-    color: #524d5b;
-    margin-top: 228px; /* Ajuste na margem superior */
-    margin: 100px 140px 10px;
-}
-.titulo2 {
-    font-size: 1.1em; /* Reduz o tamanho dos subtítulos */
-    color: #4d5a5b;
-    margin-top: 8px; /* Ajuste na margem superior */
-    margin: 10px 140px 30px;
+.visitante{
+   
+    font-size: 1.4em;
+    margin-bottom: 50px;
 }
 
-/* Estilo dos parágrafos */
-p {
-    font-size: 0.95em; /* Reduz o tamanho da fonte dos parágrafos */
-    color: #2c3e50;
-    line-height: 1.6; /* Ajusta o espaçamento entre linhas */
-    margin: 6px 26px; /* Adiciona margem entre parágrafos */
-    display: flex;
-    align-items: center;
-    justify-items: center;
+.titulo1 {
+    font-size: 1.3em; /* Reduz o tamanho dos subtítulos */
+    color: #413d47;
+   text-align: center;
+   
+    
 }
-h4 {
-    margin-left: 25px;
+.titulo2 {
+    font-size: 1.3em; /* Reduz o tamanho dos subtítulos */
+    color: #413d47;
+    text-align: center;
+}
+  
+
+
+/* Estilo dos parágrafos */
+.cartao-informacao p {
+    font-size: 1.2em; /* Reduz o tamanho da fonte dos parágrafos */
+    color: #2c3e50;
+    line-height: 1.2em; /* Ajusta o espaçamento entre linhas */
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.vivemos{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.somos {
+    margin-left: 20px;
+    margin-bottom: 20px
+}
+.nossos {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.nossa {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 /* CARTÃO 2 */
 
 .titulo-cartao2 {
     margin: 20px 100px 13px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     width: 100%;
     max-width: 350px;
 }
@@ -150,11 +162,11 @@ input[type="date"] {
 }
 
 input[type="radio"] {
-    width: 5%;
+    width: 8%;
     margin: 10px;
     margin-left: 15px;
-
 }
+
 .faixa-etaria {
     display: flex;
     margin-left: 15px;
@@ -179,12 +191,10 @@ input[name="igreja"] {
 }
 /*CARTÃO 3 */
 
-.titulo-cartao3 {
-    margin: -10px 130px 10px;
-    font-size: 1.2em;
-    width: 80%;
-    max-width: 270px;
-    margin-top: 0;
+.cartao-informacao .titulo-cartao3 {
+    font-size: 1.25em;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 .pergunta1 {
     margin-bottom: 5px;
@@ -223,7 +233,7 @@ input[name="igreja"] {
 }
 
 input[type="radio"] {
-    margin-right: 5px;
+    margin-right: 2px;
     /* Espaço entre o rádio e o texto */
 }
 button {

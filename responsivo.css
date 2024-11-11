@@ -35,7 +35,7 @@
   font-size: 1.3em;
 }
   form {
-      padding: 0.9em;
+      padding: 1.3em;
       font-size: 1.3em;
 
   }
@@ -99,12 +99,15 @@
       margin-top: 20px;
       height: auto; /* Ajuste automático de altura */
       padding: 0px;
-  }
+     }
   }
 
   img.imagem {
-      width: 80%;
+      width: 70%;
       margin: auto;
+  }
+  p {
+    word-spacing: -0.1em;
   }
 
   .titulo1, .titulo2 {
@@ -114,12 +117,24 @@
 
   h2, h3 {
       font-size: 1.3em;
+      margin: 0px 10px 0px 0px;
+      text-align: center;
+      font-size: 1.2em; /* Ajuste o tamanho do texto */
   }
+
+  .titulo-cartao3 {
+    margin: 0px 10px 10px;
+    font-size: 1.1em;
+    width: 80%;
+    max-width: 270px;
+    margin-top: 0;
+}
 
   .pergunta1 {
     margin-left: 2px;
     font-size: 1em;
     /* Tamanho da fonte das questões */
+
 }
 .pergunta2 {
     margin-left: 2px;
