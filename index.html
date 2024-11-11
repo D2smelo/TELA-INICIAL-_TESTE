@@ -6,28 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MINISTÉRIO CATIVAR 1</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;400;600;800&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <main>
         <section class="cartao-informacao">
 
-            <img class="imagem" src="CATIVAR.png" alt="Logotipo do Ministério Cativar">
-
-
+            <img class="imagem" src="./src/imagem/CATIVAR.png" alt="Logotipo do Ministério Cativar">
 
             <h3 class="amigo">Amigo</h3>
             <h2 class="visitante">VISITANTE</h2>
-
 
             <h4 class="titulo1">Que bom que você veio!</h4>
             <p>Cristianismo é relacionamento e por isso queremos que nos conheça rapidamente!</p>
@@ -43,111 +38,82 @@
                 evangelismo, desenvolvimento de forma pessoal e interdependente".</p>
 
             <h4>Nossos valores:</h4>
-            <p>"A Bíblia, o individuo e a Familia".</p>
+            <p>"A Bíblia, o indivíduo e a Família".</p>
 
             <h4>Nossa declaração de Fé:</h4>
             <p>"Cremos no relacionamento entre Jesus e o homem e entre o homem e seu próximo".</p>
 
-
             <h2 class="titulo-cartao2">Agora um pouco de você</h2>
 
-            <form action="/SUBMIT" method="POST"> <!-- action é onde os dados serão enviados -->
+            <form action="/SUBMIT" method="POST">
+                <label class="nome" for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <br>
 
-                <!-- Nome -->
-                <div class="formulario">
-                    <label for="nome">Nome:</label>
-                    <div class="digite-seu-nome"> <input type="text" id="nome" name="nome" placeholder="Digite seu nome"
-                            required>
-                        <br>
+                <label class="tel" for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                <br>
 
-                        <!-- Telefone -->
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
-                        <br>
+                <label class="email" for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email">
+                <br>
 
-                        <!-- Email -->
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Digite seu email">
-                        <br>
+                <label class="endereco" for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
+                <br>
 
-                        <!-- Endereço -->
-                        <label for="endereco">Endereço:</label>
-                        <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
-                        <br>
+                <label class="data-aniver" for="data-aniversario">Data de Aniversário:</label>
+                <input type="date" id="data-aniversario" name="data-aniversario">
+                <br>
 
-                        <!-- Data de Aniversário -->
-                        <label for="data-aniversario">Data de Aniversário:</label>
-                        <input type="date" id="data-aniversario" name="data-aniversario">
-                        <br>
+                <label class="visitando">Visitando:</label>
+                <label><input type="radio" name="visita" value="1a vez"> 1ª vez</label>
+                <label><input type="radio" name="visita" value="2a vez"> 2ª vez</label>
+                <label><input type="radio" name="visita" value="3a vez"> 3ª vez</label>
+                <br>
 
-                        <!-- Visitando (Radios) -->
-                        <label class="visitando">Visitando:</label>
-                        <label><input type="radio" name="visita" value="1a vez"> 1ª vez</label>
-                        <label><input type="radio" name="visita" value="2a vez"> 2ª vez</label>
-                        <label><input type="radio" name="visita" value="3a vez"> 3ª vez</label>
-                        <br>
+                <label class="igreja" for="igreja">Igreja que pertence:</label>
+                <input type="text" id="igreja" name="igreja" placeholder="Digite sua igreja">
+                <br>
 
-                        <!-- Igreja que Pertence -->
-                        <label class="igreja" for="igreja">Igreja que pertence:</label>
-                        <input type="igreja" id="igreja" name="igreja" placeholder="Digite sua igreja">
-                        <br>
+                <label class="faixa-etaria">Faixa etária:</label>
+                <label><input type="radio" name="faixa-etaria" value="adolescente"> Adolescente</label>
+                <label><input type="radio" name="faixa-etaria" value="jovem"> Jovem</label>
+                <label><input type="radio" name="faixa-etaria" value="adulto"> Adulto</label>
+                <br>
 
-                        <!-- Faixa Etária (Radios) -->
-                        <label class="faixa-etaria">Faixa etária:</label>
-                        <label><input type="radio" name="faixa-etaria" value="adolescente">
-                            Adulto</label>
-                        <label><input type="radio" name="faixa-etaria" value="jovem">Jovem</label>
-                        <label><input type="radio" name="faixa-etaria" value="adulto">Adolescente</label>
-                        <br>
+                <label class="data-hoje" for="data-hoje">Data de hoje:</label>
+                <input type="date" id="data-hoje" name="data-hoje">
+                <br>
 
-                        <label class="data-hoje" for="data-hoje">Data de hoje:</label>
-                        <input type="date" id="data-aniversario" name="data-aniversario">
-                        <br>
-                    </div>
-                </div>
-                <div class="formulario3" id="cartao3">
+                <h2 class="titulo-cartao3">Minha decisão hoje:</h2>
 
-                    <h2 class="titulo3">Minha decisão hoje:</h2>
+                <label class="pergunta1"><input type="radio" name="questionario" value="salvo_por_Jesus">
+                    Entendi que preciso ser salvo por Jesus. </label>
+                <br>
 
-                    <form action="/SUBMIT" method="POST"> <!-- action é onde os dados serão enviados -->
+                <label class="pergunta2"><input type="radio" name="questionario" value="reconciliar_igreja">
+                    Entendi que preciso me reconciliar com a igreja. </label>
+                <br>
 
+                <label class="pergunta3"><input type="radio" name="questionario" value="membro_igreja"> Quero saber como me
+                    tornar membro da igreja. </label>
+                <br>
 
-                        <label class="pergunta1"><input type="radio" nome="questionario" value="salvo_por_Jesus">
-                            Entendi que preciso
-                            ser
-                            salvo por Jesus. </label>
+                <label class="pergunta4"><input type="radio" name="questionario" value="orar_vida"> Quero que orem pela minha
+                    vida.</label>
+                <br>
 
-                        <label class="pergunta2"><input type="radio" nome="questionario" value="reconciliar_igreja">
-                            Entendi que
-                            preciso me
-                            reconciliar com a igreja. </label>
+                <label class="pergunta5"><input type="radio" name="questionario" value="visita_pastor"> Quero uma visita do
+                    pastor da igreja.</label>
+                <br>
 
-                        <label class="pergunta3"><input type="radio" nom="questionario" value="membro_igreja"> Quero
-                            saber como me
-                            tornar
-                            membro da igreja. </label>
+                <button type="submit">Enviar</button>
+            </form>
 
-                        <label class="pergunta4"><input type="radio" nome="questionario" value="orar_vida"> Quero que
-                            orem pela minha
-                            vida.
-                        </label>
-
-                        <label class="pergunta5"><input type="radio" nome="questionario" value="visita_pastor"> Quero
-                            uma visita do
-                            paastor da
-                            igreja.</label>
-
-                        </label>
-                        <br>
-
-                        <!-- Botão de Enviar -->
-                        <button type="submit">Enviar</button>
-                    </form>
-
-                </div>
         </section>
     </main>
-    <script src="index.js"></script>
+    <script src="./src/js/index.js"></script>
 
 </body>
 
