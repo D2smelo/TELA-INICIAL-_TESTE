@@ -1,13 +1,13 @@
 body {
-    font-family: 'PopIndie Flower', sans-serif;
-    background-image: url(background.png);
+    font-family: 'Indie Flower', 'Poppins', sans-serif;
+    background-image: url(../imagem/background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
+    
+    
 }
 body::before {
     content: "";
@@ -16,9 +16,8 @@ body::before {
     left: 0;
     width: 100%;
     height: 100vh;
-    z-index: 0;
-    backdrop-filter: blur(0px);
-    background-attachment: fixed;
+    z-index: -1;
+    
 }
 main {
     display: flex;
@@ -37,8 +36,8 @@ img.imagem{
     display: flex;
     flex-direction: column;
     width: 510px;
-    margin-top: 100px;
-    height: 220vh;
+    margin-top: 50px;
+    
 }
 
    
@@ -86,23 +85,35 @@ h4 {
 /* CARTÃO 2 */
 
 .titulo-cartao2 {
-    margin: 10px 100px 0px;
+    margin: 20px 100px 13px;
     font-size: 1.5em;
     width: 100%;
     max-width: 350px;
 }
-.formulario {
-    margin-left: 10px;
-    max-width: 500px;
-}
+
 input[type="text"] {
-    width: 100%;
+    width: 90%;
     /* Deixa os inputs com 100% da largura do cartão */
     padding: 8px 10px;
-    margin: 15px;
+    margin: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: 0px;
+    margin-left: 10px;
+}
+.nome {
+    margin-left: 15px;
+}
+.tel{
+    margin-left: 15px;
+}
+.email{
+    margin-left: 15px;
+}
+.endereco {
+    margin-left: 15px;
+}
+.data-aniver {
+    margin-left: 15px;
 }
 
 input[type="tel"] {
@@ -112,65 +123,63 @@ input[type="tel"] {
     margin: 5px 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 
 input[type="email"] {
     width: 80%;
     /* Deixa os inputs com 100% da largura do cartão */
     padding: 8px;
-    margin: 5px 0px;
+    margin: 5px 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 
 input[type="date"] {
-    width: 60%;
+    width: 25%;
     padding: 8px;
     margin: 15px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 .visitando {
     display: flex;
+    margin-left: 15px;
 }
 
 input[type="radio"] {
     width: 5%;
-    margin: 5px 0px;
-    margin-left: 0px;
+    margin: 10px;
+    margin-left: 15px;
 
 }
 .faixa-etaria {
     display: flex;
+    margin-left: 15px;
+    
 }
 
-input[type="igreja"] {
+input[name="igreja"] {
     width: 80%;
     /* Deixa os inputs com 100% da largura do cartão */
     padding: 8px;
-    margin: -40px 0px 10px;
+    margin: 10px 10px 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: 0px;
+    margin-left: 15px;
 }
 .igreja {
-    line-height: 50px;
+    margin-left: 15px;
+}
+
+.data-hoje{
+    margin-left: 15px;
 }
 /*CARTÃO 3 */
 
-.formulario3 {
-    margin: -5px 0px 0px;
-    font-size: 1.2em;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin-bottom: 0px;
-    
-}
-.titulo3 {
+.titulo-cartao3 {
     margin: -10px 130px 10px;
     font-size: 1.2em;
     width: 80%;
@@ -218,17 +227,16 @@ input[type="radio"] {
     /* Espaço entre o rádio e o texto */
 }
 button {
-    width: 30%;
+    display: block;
+    width: 50%; /* Altere conforme desejado */
     padding: 10px;
+    margin: 20px auto;
+    background-color: rgb(255, 81, 0);
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: -15px;
-    text-decoration-color: #333;
-    margin-bottom: 30px;
-    margin-left: 180px;
-    background-color: rgb(255, 81, 0);
+    color: #333;
 }
 
 button:hover {
