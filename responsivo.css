@@ -71,30 +71,30 @@ body {
 
   .pergunta1 {
     margin-left: 2px;
-    font-size: 1.2em;
+    font-size: 1em;
     /* Tamanho da fonte das questões */
 }
 .pergunta2 {
     margin-left: 2px;
-    font-size: 1.2em;
+    font-size: 1em;
     /* Tamanho da fonte das questões */
 }
 .pergunta3 {
     margin-left: 2px;
-    font-size: 1.2em;
+    font-size: 1em;
     /* Tamanho da fonte das questões */
 }
 .pergunta4 {
   
     /* Espaço entre as questões */
     margin-left: 2px;
-    font-size: 1.2em;
+    font-size: 1em;
     /* Tamanho da fonte das questões */
 }
 .pergunta5 {
   
     margin-left: 2px;
-    font-size: 1.2em;
+    font-size: 1em;
     /* Tamanho da fonte das questões */
 }
 
@@ -110,7 +110,7 @@ body {
 /* Para dispositivos móveis muito pequenos */
 @media (max-width: 480px) {
   .cartao-informacao {
-      width: 95%;
+      width: 90%;
   }
 
   img.imagem {
