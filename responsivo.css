@@ -1,7 +1,7 @@
 /* Estilos gerais para desktops e telas grandes */
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url(../imagem/background.png);
+  background-image: url(background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,8 +29,7 @@ body {
       margin: 0;
       text-align: center;
       font-size: 1.5em; /* Ajuste o tamanho do texto */
-    margin-top: 50px;
-    line-height: 0px;
+   
     
   }
 
