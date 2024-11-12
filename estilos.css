@@ -36,10 +36,9 @@ main {
     background-color: rgb(238, 245, 245);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 510px;
-    margin-top: 80px;
-    
-    
+    margin-top: 120px;
 }
 .amigo {
 
@@ -73,7 +72,7 @@ main {
     line-height: 1.2em; /* Ajusta o espaçamento entre linhas */
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center;
+    text-align: left;
 }
 .vivemos{
     margin-bottom: 10px;
@@ -101,6 +100,13 @@ main {
     font-size: 1.3em;
     width: 100%;
     max-width: 350px;
+}
+/* Seleciona o contêiner onde estão os radios */
+.radio-container {
+    display: flex;
+    flex-direction: column; /* Organiza os radios em coluna */
+    gap: 5px; /* Espaçamento entre os elementos */
+    margin-left: 15px; /* Ajuste de margem, se necessário */
 }
 
 input[type="text"] {
@@ -252,6 +258,18 @@ button {
 button:hover {
     background-color: #36ea3f;
 
+}
+.fim-pagina {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+
+}
+.texto {
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
 }
 
   
